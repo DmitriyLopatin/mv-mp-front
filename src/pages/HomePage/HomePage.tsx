@@ -1,12 +1,15 @@
+import { PageWrapper } from 'App.styled'
 import { Helmet } from 'react-helmet'
-import { TestStyle } from './styled'
+
 
 const HomePage: React.FunctionComponent = () => {
   return <>
     <Helmet>
-      <title>Гланая страница маркетпласе</title>
+      <title>Гланая страница маркетпласе MW</title>
     </Helmet>
-    <TestStyle>Главная страница</TestStyle>
+    <PageWrapper>
+     <h1> Главная страница</h1>
+    </PageWrapper>
   </>
 }
 
