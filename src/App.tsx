@@ -5,18 +5,16 @@ import PrivateRoutes from "routes/PrivateRoutes"
 import PublicRoutes from "routes/PublicRoutes"
 
 export const App = () => {
-  return (
-    <React.Fragment>
+  return<>
       <AppStyles/>
       <Header/>
-      <Suspense fallback={"Loading"}>
+      <Suspense fallback={"Loading . . ."}>
         <PublicRoutes />
         <PrivateRoutes />
       </Suspense>
       <Footer>
         <div> MarketPlace MW</div>
       </Footer>
-    </React.Fragment>
-  )
+    </>
 }
 export default App

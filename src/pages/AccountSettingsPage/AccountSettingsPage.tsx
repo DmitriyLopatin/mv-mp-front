@@ -1,12 +1,12 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+// import { Helmet } from 'react-helmet'
 
 const AccountSettingsPage: React.FunctionComponent = () => {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Страница настроек</title>
-      </Helmet>
+      </Helmet> */}
       <h1>
         Настройки Аккаунта
       </h1>
